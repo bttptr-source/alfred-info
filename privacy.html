@@ -10,19 +10,20 @@
 
 <h2>Chi è il titolare</h2>
 <p>Pietro Buttini, studio Trigomigo. Contatto: bttptr@gmail.com.</p>
+<p>Oggi Alfred è usato solo dal titolare, per uso personale, sul proprio computer.</p>
 
 <h2>Quali dati Google legge Alfred</h2>
 <p>Solo dopo che l'utente ha dato il consenso su Google, e solo in lettura:</p>
 <ul>
-<li><strong>Gmail</strong> (permesso gmail.readonly): mittente, oggetto, data e testo delle email, per fare riepiloghi su richiesta.</li>
-<li><strong>Google Calendar</strong> (permesso calendar.readonly): titolo, data, ora e luogo degli eventi, per agenda e promemoria.</li>
+<li><strong>Gmail</strong> (permesso gmail.readonly): solo mittente, oggetto, data e la breve riga di anteprima che mostra Gmail; mai il testo completo delle email. L'elenco delle email lo compone il programma, senza riassunti fatti da modelli di intelligenza artificiale.</li>
+<li><strong>Google Calendar</strong> (permesso calendar.readonly): titolo, data, ora di inizio e fine e luogo degli eventi, per agenda e promemoria.</li>
 </ul>
 <p>Alfred non può inviare, modificare, spostare o cancellare email o eventi: Google non gli dà questi permessi.</p>
 
 <h2>Dove finiscono i dati</h2>
 <ul>
 <li>Le email e gli eventi vengono letti dal computer dell'utente e non vengono salvati su server di terzi.</li>
-<li>Le risposte che l'utente chiede (per esempio un riepilogo) gli arrivano su Telegram, quindi passano dai server di Telegram.</li>
+<li>Le risposte che l'utente chiede (per esempio l'elenco delle email o l'agenda) gli arrivano su Telegram, quindi passano dai server di Telegram.</li>
 <li>Il collegamento a Google (token) resta solo sul computer dell'utente.</li>
 <li>I dati Google non vengono venduti, condivisi con terzi, usati per pubblicità né usati per addestrare modelli di intelligenza artificiale.</li>
 </ul>
@@ -33,7 +34,18 @@
 inclusi i requisiti di Uso limitato (Limited Use).</p>
 
 <h2>Come revocare l'accesso</h2>
-<p>In qualunque momento da <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> → Alfred → Elimina l'accesso. Il token salvato sul computer viene poi cancellato.</p>
+<p>In qualunque momento da <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> → Alfred → Elimina l'accesso. Da quel momento il collegamento salvato sul computer (il file <code>stato\google_token.json</code>) non funziona più e si può cancellare. In alternativa puoi chiedere la revoca scrivendo a bttptr@gmail.com.</p>
+
+<h2>I tuoi diritti (GDPR)</h2>
+<p>In base al Regolamento europeo sulla protezione dei dati (GDPR) puoi chiedere in qualsiasi momento di:</p>
+<ul>
+<li>sapere quali dati che ti riguardano vengono trattati e averne una copia (accesso);</li>
+<li>correggerli (rettifica);</li>
+<li>farli cancellare (cancellazione);</li>
+<li>opporti al loro trattamento (opposizione).</li>
+</ul>
+<p>Per esercitare questi diritti scrivi a bttptr@gmail.com. Hai anche il diritto di presentare un reclamo al
+<a href="https://www.garanteprivacy.it">Garante per la protezione dei dati personali</a> (garanteprivacy.it).</p>
 
 <h2>Contatti</h2>
 <p>Per qualsiasi domanda: bttptr@gmail.com</p>
